@@ -4,7 +4,7 @@ import subprocess
 # =========================
 # 配置区（只改这里）
 # =========================
-INPUT_FILE = r"E:\temp\12-15.m4a"
+INPUT_FILE = r"E:\temp\0107.m4a"
 BITRATE = "192k"
 FFMPEG_EXE = r"C:\ffmpeg\bin\ffmpeg.exe"  # 改成你自己的 ffmpeg.exe 实际路径
 

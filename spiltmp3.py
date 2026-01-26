@@ -6,8 +6,8 @@ from shutil import which
 # =========================
 # 配置区（只改这里）
 # =========================
-INPUT_FILE = r"E:\temp\12-15.mp3"   # 输入 mp3
-N_PARTS = 3                        # 分成 N 份
+INPUT_FILE = r"E:\temp\0107.mp3"   # 输入 mp3
+N_PARTS = 2                        # 分成 N 份
 OVERLAP_SEC = 10                   # 向后冗余秒数（除最后一段）
 OUTPUT_DIR = None                  # None 表示输出到同目录；也可填 r"E:\temp\out"
 BITRATE = "192k"                   # 重新编码输出的 mp3 码率
