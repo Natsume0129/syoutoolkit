@@ -22,3 +22,15 @@ Get-ChildItem -Path "E:\Matsuda_data\手动标注( vgg-face分析)\10-29_output_
     python .\FaceTracking\CUI-pyplot\face_detection.py --movie_file "$($_.FullName)"
   }
 - 记得修改目录
+
+## make_still_image.py
+用来制作连续帧的图片，用法：
+
+'''powershell
+python make_stillimage.py [-h] --input INPUT --out OUT [--step STEP] [--pattern PATTERN] [--max_count MAX_COUNT] [--tile_w TILE_W] [--gap GAP] [--pad PAD] [--font_size FONT_SIZE] [--label_h LABEL_H] [--bg BG] [--text TEXT] [--target_aspect TARGET_ASPECT]
+make_stillimage.py: error: the following arguments are required: --input, --out
+
+
+
+python make_stillimage.py --input "E:\path\to\frames" --step 10 --out "still.png"
+'''
